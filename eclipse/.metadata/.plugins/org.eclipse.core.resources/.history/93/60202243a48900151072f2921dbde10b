@@ -1,0 +1,5 @@
+package com.techiinexus.LetsModReboot.client.gui;
+
+public class ModGuiConfig extends GuiConfig {
+
+}

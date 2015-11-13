@@ -1,0 +1,6 @@
+package com.techiinexus.LetsModReboot.proxy;
+
+public interface IProxy {
+
+	
+}

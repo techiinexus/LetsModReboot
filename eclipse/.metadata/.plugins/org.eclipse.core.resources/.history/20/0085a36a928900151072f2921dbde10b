@@ -1,0 +1,23 @@
+package com.techiinexus.LetsModReboot.configuration;
+
+import java.io.File;
+
+import net.minecraftforge.common.config.Configuration;
+
+public class ConfigurationHandler {
+
+	public static void init(File configFile){
+		// Create the config file
+		Configuration configuration = new Configuration(configFile);
+		
+		try {
+			configuration.load();
+		}
+		catch (Exception e){
+			//Log the exception
+		}
+		finally {
+			configuration.save();
+		}
+	}
+}

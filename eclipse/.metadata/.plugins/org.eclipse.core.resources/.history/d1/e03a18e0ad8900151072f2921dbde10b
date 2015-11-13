@@ -1,0 +1,7 @@
+package com.techiinexus.LetsModReboot.item;
+
+import net.minecraft.item.Item;
+
+public class ItemLMRB extends Item {
+	
+}

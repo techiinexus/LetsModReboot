@@ -1,0 +1,21 @@
+package com.techiinexus.LetsModReboot.item;
+
+import com.techiinexus.LetsModReboot.reference.Reference;
+
+import net.minecraft.item.Item;
+
+public class ItemLMRB extends Item {
+	public ItemLMRB() {
+		super();
+	}
+	
+	@Override
+	public String getUnlocalizedName(){
+		return String.format("item %s%s", Reference.MOD_ID.toLowerCase(), getUnwrappedUnlocalizedName());
+	}
+
+	protected String getUnwrappedUnlocalizedName(String unlocalizedName) {
+		return unlocalizedName.substring(unlocalizedName.indexOf(" ") + 1);
+		return null;
+	}
+}

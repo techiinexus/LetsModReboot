@@ -1,0 +1,6 @@
+package com.techiinexus.LetsModReboot;
+
+@Mod(modid="LetsModReboot", name = "Let's Mod Reboot", version = "1.7.10-1.0")
+public class LetsModReboot {
+
+}

@@ -1,0 +1,13 @@
+package com.techiinexus.LetsModReboot.item;
+
+import net.minecraft.item.Item;
+
+public class ItemLMRB extends Item {
+	public ItemLMRB() {
+		super();
+	}
+	
+	public String getUnlocalizedName(){
+		
+	}
+}

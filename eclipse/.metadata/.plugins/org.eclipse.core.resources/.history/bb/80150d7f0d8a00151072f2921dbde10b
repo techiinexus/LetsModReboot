@@ -1,0 +1,7 @@
+package com.techiinexus.LetsModReboot.item;
+
+public class ItemMapleLeaf extends ItemLMRB {
+	public ItemMapleLeaf(){
+		super();
+	}
+}
